@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hsuan's Blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Hsuan Cheng
+language: zh-tw
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://sandycheng0917.github.io/HsuanBlog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,4 +101,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/sandycheng0917/HsuanBlog.git
+  branch: gh-pages
